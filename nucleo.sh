@@ -2,12 +2,12 @@
 
 function prompt
 {
-  echo -e "\$--> \c "
+  echo -e "\$--> \c " #Prompt de la shell
 }
 
 PCLAVE="salir" #Salida de la shell
 
-prompt;read STRING
+prompt;read STRING 
 
 while [ $STRING != $PCLAVE ]
 do
