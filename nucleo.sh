@@ -2,7 +2,7 @@
 
 function prompt
 {
-  echo -e "\$--> \c " #Prompt de la shell
+  echo -e "\$--> \c " #Prompt de la shell #Es un prompt de la shell
 }
 
 PCLAVE="salir" #Salida de la shell
